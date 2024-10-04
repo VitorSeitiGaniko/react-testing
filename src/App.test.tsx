@@ -45,7 +45,11 @@ export default {}
 
 //o describe espera um titulo e uma função CALLBACK que contem os testes
 //o it espera um titulo e uma função CALLBACK que contem os testes
-//o render utiliza o componente que queremos testar
+//os testes nada mais são que expectativas que esperamos que sejam verdadeiras
+
+//Jest não foi feito para testas o DOM
+//render - é necessário renderizar o componente (App) para que ele possa ser testado
 //o screen é um objeto que contem funções para buscar elementos na tela
-//o getByText busca um texto na tela
+//o getByText busca um texto na tela - é case sensitive
 //https://testing-library.com/docs/queries/about/
+
